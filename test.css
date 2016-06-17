@@ -1,0 +1,89 @@
+﻿body {
+	background-color:black;
+}
+#mainDiv {width:980px; margin:0 auto 0 auto; background-color:beige; padding-top:30px; position:relative;}
+/*img {border: 1px solid green}*/
+#slideshow {position:relative; height: 900px;}
+#btn     {  position:absolute; top:400px; left:392px; }
+#pause   {  position:absolute; top:400px; left:465px; }
+#forward {  position:absolute; top:400px; left:538px; }
+
+#fav1, #fav2, #fav3, #fav4 {border:1px solid beige; width:100px; height:100px; margin-left:1000px; position:relative;}
+#fav1 span, #fav2 span, #fav3 span, #fav4 span {opacity:0; position:absolute; right:-22px; background-color:orangered; width:20px; height:20px; text-align:center;}
+#fav1:hover span, #fav2:hover span, #fav3:hover span, #fav4:hover span { opacity:1; }
+
+#slideshow figure:nth-child(1) img{width:100px;height:100px;position:absolute;top:630px;left:137px;border:1px black solid;}
+#slideshow figure:nth-child(2) img{width:100px;height:100px;position:absolute;top:630px;left:337px;border:1px black solid;}
+#slideshow figure:nth-child(3) img{width:100px;height:100px;position:absolute;top:630px;left:537px;border:1px black solid;}
+#slideshow figure:nth-child(4) img{width:100px;height:100px;position:absolute;top:630px;left:737px;border:1px black solid;}
+                                                                                   
+#slideshow figure:nth-child(5) img{width:100px;height:100px;position:absolute;top:530px;right:50px;border:1px black solid;}
+#slideshow figure:nth-child(9) img{width:100px;height:100px;position:absolute;top:530px;left:50px;border:1px black solid;}
+                                                                                   
+#slideshow figure:nth-child(6) img{width:100px;height:100px;position:absolute;top:430px;right:150px;border:1px black solid;}
+#slideshow figure:nth-child(8) img{width:100px;height:100px;position:absolute;top:430px;left:150px;border:1px black solid;}
+ 
+#slideshow figure:nth-child(7) img{width:600px;height:377px;position:absolute;left:190px;border:5px black solid;}
+
+
+
+
+/*@keyframes 1 {width:100px;height:100px;position:absolute;top:620px;left:137px;}
+@keyframes 2 {width:100px;height:100px;position:absolute;top:620px;left:337px;}
+@keyframes 3 {width:100px;height:100px;position:absolute;top:620px;left:537px;}
+@keyframes 4 {width:100px;height:100px;position:absolute;top:620px;left:737px;}
+@keyframes 5 {width:100px;height:100px;position:absolute;top:500px;left:50px;}
+@keyframes 6 {width:100px;height:100px;position:absolute;top:500px;right:50px;}
+@keyframes 7 {width:200px;height:200px;position:absolute;top:300px;left:150px;}
+@keyframes 8 {width:200px;height:200px;position:absolute;top:300px;right:150px;}
+@keyframes 9 {width:300px;height:300px;position:absolute;left:340px;}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{background-image: url('crayon2.jpg'); background-repeat: no-repeat; background-size:100% 100%;}
+header{text-shadow:5px 5px 5px #00FF00; width: 100%; height:80px; border-bottom: 5px orange double; text-align: center; font-size: 70px; padding-bottom: 15px; font-family: 'Arial Rounded MT', Helvetica, sans-serif; color:gold; }
+#mainDiv { background-color: grey; opacity: 0.9; border-width: 0 1px 0 1px; border-color: green; border-style: solid; width:980px;  margin:auto;	font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif; position: relative;}
+#tableHolder ul{margin:0; padding:0;}
+#tableHolder li 
+{
+    display:inline-block;
+    height:50px;
+    width:50px;
+    margin:3px;
+    text-align:center;
+    border: 3px solid turquoise;
+    font-size: small;
+    border-radius: 40px;
+    line-height: 50px;
+}
+#mainDiv div:nth-child(1), #mainDiv div:nth-child(2), #mainDiv div:nth-child(3) {float: left; width: 33.33%; text-align: center; padding-bottom:50px;}
+#mainDiv div:nth-child(1) input, #mainDiv div:nth-child(2)  input { font-size: 50px; width: 150px;  border-radius: 20px; padding-left: 10px;}
+#mainDiv div:nth-child(3)  input { font-size: 60px; width: 100px; height: 100px; margin-top: 20px; border-radius: 50px;}
+#tableHolder {; text-align: center; height:700px; overflow: auto; clear:both;}*/
+
+
+
+/*http://www.w3schools.com/css/css_image_sprites.asp*/
+/*#mainDiv div:nth-child(1) p {display: block;  background-image: url(iconRow.jpg); background-size: 20px 20px; background-repeat: no-repeat; background-position: 120px;}
+#mainDiv div:nth-child(2) p {display: block;  background-image: url(iconCol.jpg); background-size: 20px 20px; background-repeat: no-repeat; background-position: 120px;}
+#color, #reset {font-size: 30px; width: 150px;  border-radius: 30px;}
+aside{position: absolute; right: -170px; top:20px;}*/
+
+/*turn off spinner on number input fields*/
